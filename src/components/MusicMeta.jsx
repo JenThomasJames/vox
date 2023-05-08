@@ -1,6 +1,7 @@
 import React from "react";
 import AlbumArt from "./AlbumArt";
 import MusicControls from "./MusicControls";
+import VolumeControl from "./VolumeControl";
 
 const MusicMeta = () => {
   return (
@@ -22,6 +23,7 @@ const MusicMeta = () => {
         <p className="text-slate-400 text-xs">0:00</p>
       </div>
       <MusicControls />
+      <VolumeControl />
     </div>
   );
 };
